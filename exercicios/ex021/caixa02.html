@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../ex016/css.ico.ico" type="image/x-icon">
+    <title>Groups tags</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: rgb(1, 43, 43);
+            margin: 0px;
+        }
+        header {
+            background-color: white;
+            padding: 5px 10px;
+            border: 10px solid royalblue;
+            margin: 10px auto 10px auto;
+        }
+        header > h1 {
+            font-family: Arial, Helvetica, sans-serif;
+            font-style: italic;
+            color: royalblue;
+            text-align: center;
+
+        }
+        nav > a {
+            font-weight: bolder;
+            margin-left: 10px;
+            text-decoration: none;
+        }
+        nav > a:hover {
+            text-decoration: underline;
+            color: rgb(255, 0, 0);
+        }
+        #assunto {
+            background-color: white;
+            padding: 5px 10px;
+            border: 10px solid royalblue;
+            margin: 30px 40px 10px 40px;
+        }
+        #assunto > h2 {
+            font-style: italic;
+            color: royalblue;
+        }
+        #assunto > p {
+            font-weight: bold;
+            text-align: justify;
+        }
+        #noticias {
+            background-color: white;
+            padding: 5px 10px;
+            border: 10px solid royalblue;
+            margin: 30px 40px 10px 40px;
+        }
+        #noticias > article > h2 {
+            font-style: italic;
+            color: royalblue;
+        }
+        #noticias > article > p {
+            font-weight: bolder;
+            text-align: justify;
+        }
+        article > aside {
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            color: rgb(63, 104, 105);
+        }
+        footer {
+            background-color: royalblue;
+            border: 5px solid black;
+        }
+        footer > p {
+            color: aliceblue;
+            text-align: center;
+            padding: 10px;
+            
+        }
+        #listarodape > li {
+            display: inline;
+            
+        }
+        #listarodape > li > a {
+            
+            text-decoration: none;
+            font-weight:  bold;
+            color: aliceblue;
+            margin: 30px;
+        }
+
+
+    </style>
+</head>
+<body>
+        <header>
+            <h1>Tags semânticas</h1>
+            <nav>
+                <a class="link1" href="#">Links</a>
+                <a class="link2" href="#">Links</a>
+                <a class="link3" href="#">Links</a>
+                <a class="link4" href="#">Links</a>
+                <a class="link5" href="#">Links</a>
+            </nav>
+        </header>
+    <main>
+        <section id="assunto">
+            <h2>Futebol</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet nobis dolores beatae iusto officiis molestiae quis cupiditate dolorum. Itaque rem voluptates aliquam corporis ullam hic quia ipsam velit numquam accusamus.</p> 
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Facilis excepturi, officia laboriosam tenetur, dignissimos illum illo totam voluptatibus dolorem soluta temporibus harum enim? Doloribus reprehenderit dolorum, iure voluptatem repellat at.</p>
+
+        </section>
+        <section id="noticias">
+            <article>
+                <h2>Musicas internacionais</h2>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Exercitationem, esse. Nihil corporis rerum, dolores suscipit dicta minus tenetur deserunt sit ut, pariatur eaque iusto consectetur eos numquam consequuntur deleniti neque?</p>
+                <aside>Artigo do autor</aside>
+            </article>
+        </section>
+    </main>
+    <footer id="rodape">
+        <p>Desenvolvido por Khraysler</p>
+        <ul id="listarodape">
+            <li><a href="#">Link</a></li>
+            <li><a href="#">Link</a></li>
+            <li><a href="#">Link</a></li>
+        </ul>
+    </footer>
+
+    
+    
+</body>
+</html>
